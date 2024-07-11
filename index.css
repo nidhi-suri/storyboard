@@ -49,3 +49,27 @@ button {
     color: #9AABD8;
     font-size: 28px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  h3 {
+    text-align: center;
+    font-size: 22px; /* Adjust font sizes */
+  }
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+  .buttons {
+    flex-direction: row; /* Stack buttons vertically */
+  }
+  button {
+    padding: 15px; /* Increase button size */
+  }
+  .reset {
+    margin-top: 15px;
+  }
+}
